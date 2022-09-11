@@ -1,0 +1,70 @@
+// @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Dongle:wght@300;400;700&family=Hind+Siliguri:wght@400;500&family=Lato:wght@300&family=Neonderthaw&family=Noto+Sans:wght@400;700&family=Prompt:wght@200&family=Work+Sans:wght@300;500&display=swap');
+
+.root {
+    font-family: 'Damion', cursive !important;
+    width: 300px;
+    height: 500px;
+    margin: 50px 0;
+    background: white;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    align-items: center;
+    transition: 500ms ease;
+    box-sizing: border-box;
+    &:hover {
+        transform: scale(1.06);
+    }
+    .img {
+        margin-top: 20px;
+        width: 200px;
+        height: 100px;
+        border-radius: 10px;
+    }
+    .descrip {
+        line-height: 50px;
+        padding: 20px 0;
+        h1 {
+            font-size: 40px;
+            font-weight: 600;
+            text-align: center;
+            color: black;
+        }
+        h2 {
+            font-size: 24px;
+            font-weight: 400;
+            span {
+                font-weight: 200;
+            }
+            h3 {
+                font-size: 18px;
+                font-weight: 400;
+                span {
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+    .more {
+        margin: 12px;
+        height: 50px;
+        width: 120px;
+        border-radius: 10px;
+        background: #333;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        font-family: 'Damion', cursive;
+        border: none;
+        font-size: 16px;
+        color: rgb(161, 161, 161);
+        transition: 500ms;
+        &:hover {
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+            color: #d6d6d6;
+            transition: 500ms;
+        }
+    }
+}
